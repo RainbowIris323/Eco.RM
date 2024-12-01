@@ -1,0 +1,97 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Eco.RM.Framework/1.0.0": {
+        "dependencies": {
+          "Eco.ReferenceAssemblies": "0.11.1.2-beta-release-767"
+        },
+        "runtime": {
+          "Eco.RM.Framework.dll": {}
+        }
+      },
+      "Eco.ReferenceAssemblies/0.11.1.2-beta-release-767": {
+        "runtime": {
+          "lib/net7.0/Eco.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net7.0/Eco.Gameplay.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net7.0/Eco.ModKit.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net7.0/Eco.Mods.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net7.0/Eco.Networking.ENet.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net7.0/Eco.Plugins.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net7.0/Eco.ReferenceAssemblies.dll": {
+            "assemblyVersion": "0.11.1.2",
+            "fileVersion": "0.11.1.2"
+          },
+          "lib/net7.0/Eco.Shared.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net7.0/Eco.Simulation.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net7.0/Eco.Stats.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net7.0/Eco.WebServer.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net7.0/Eco.World.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net7.0/Eco.WorldGenerator.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net7.0/EcoServer.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net7.0/StrangeCloud.Service.Client.CSharp.dll": {
+            "assemblyVersion": "1.0.25.0",
+            "fileVersion": "1.0.25.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Eco.RM.Framework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Eco.ReferenceAssemblies/0.11.1.2-beta-release-767": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZHcpR++wcdYPcKT/JzadqOFo5wxh+egAkPTYQVHIMgUNPsmtLAP3aRTbIk1tatUHpgG9C9vET9ASJSamZhyMig==",
+      "path": "eco.referenceassemblies/0.11.1.2-beta-release-767",
+      "hashPath": "eco.referenceassemblies.0.11.1.2-beta-release-767.nupkg.sha512"
+    }
+  }
+}

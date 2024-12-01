@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "iz75Jxcvmbs=",
+  "success": true,
+  "projectFilePath": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rainb\\.nuget\\packages\\eco.referenceassemblies\\0.11.1.2-beta-release-767\\eco.referenceassemblies.0.11.1.2-beta-release-767.nupkg.sha512"
+  ],
+  "logs": []
+}

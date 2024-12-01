@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "MHOn1JMabW0=",
+  "success": true,
+  "projectFilePath": "C:\\Eco.RM\\Source\\Code\\Eco.RM.Framework\\Eco.RM.Framework.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rainb\\.nuget\\packages\\eco.referenceassemblies\\0.11.1.2-beta-release-767\\eco.referenceassemblies.0.11.1.2-beta-release-767.nupkg.sha512"
+  ],
+  "logs": []
+}

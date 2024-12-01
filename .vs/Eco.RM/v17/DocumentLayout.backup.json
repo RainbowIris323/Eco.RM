@@ -1,0 +1,779 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Eco.RM\\Source\\Code\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|c:\\eco.rm\\source\\code\\eco.rm.electrictakeover\\objects\\vehicles\\todo\\woodentransportship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|solutionrelative:eco.rm.electrictakeover\\objects\\vehicles\\todo\\woodentransportship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|c:\\eco.rm\\source\\code\\eco.rm.electrictakeover\\objects\\vehicles\\todo\\truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|solutionrelative:eco.rm.electrictakeover\\objects\\vehicles\\todo\\truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|c:\\eco.rm\\source\\code\\eco.rm.electrictakeover\\objects\\vehicles\\todo\\trailertruck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|solutionrelative:eco.rm.electrictakeover\\objects\\vehicles\\todo\\trailertruck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|c:\\eco.rm\\source\\code\\eco.rm.electrictakeover\\objects\\vehicles\\todo\\steamtruck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|solutionrelative:eco.rm.electrictakeover\\objects\\vehicles\\todo\\steamtruck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|c:\\eco.rm\\source\\code\\eco.rm.electrictakeover\\objects\\vehicles\\todo\\steamtractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|solutionrelative:eco.rm.electrictakeover\\objects\\vehicles\\todo\\steamtractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|c:\\eco.rm\\source\\code\\eco.rm.electrictakeover\\objects\\vehicles\\todo\\skidsteer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|solutionrelative:eco.rm.electrictakeover\\objects\\vehicles\\todo\\skidsteer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|c:\\eco.rm\\source\\code\\eco.rm.electrictakeover\\objects\\vehicles\\todo\\poweredcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|solutionrelative:eco.rm.electrictakeover\\objects\\vehicles\\todo\\poweredcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|c:\\eco.rm\\source\\code\\eco.rm.electrictakeover\\objects\\vehicles\\todo\\mediumfishingtrawler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|solutionrelative:eco.rm.electrictakeover\\objects\\vehicles\\todo\\mediumfishingtrawler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|c:\\eco.rm\\source\\code\\eco.rm.electrictakeover\\objects\\vehicles\\batterypoweredindustrialbarge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|solutionrelative:eco.rm.electrictakeover\\objects\\vehicles\\batterypoweredindustrialbarge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|c:\\eco.rm\\source\\code\\eco.rm.electrictakeover\\objects\\vehicles\\batterypoweredexcavator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|solutionrelative:eco.rm.electrictakeover\\objects\\vehicles\\batterypoweredexcavator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|c:\\eco.rm\\source\\code\\eco.rm.electrictakeover\\objects\\vehicles\\batterypoweredcrane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|solutionrelative:eco.rm.electrictakeover\\objects\\vehicles\\batterypoweredcrane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|c:\\eco.rm\\source\\code\\eco.rm.electrictakeover\\objects\\mechanicalbatterydischargers\\hugemechanicalbatterydischargerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|solutionrelative:eco.rm.electrictakeover\\objects\\mechanicalbatterydischargers\\hugemechanicalbatterydischargerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|c:\\eco.rm\\source\\code\\eco.rm.electrictakeover\\items\\batteries\\smallbatteryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|solutionrelative:eco.rm.electrictakeover\\items\\batteries\\smallbatteryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|c:\\eco.rm\\source\\code\\eco.rm.electrictakeover\\objects\\electricbatterydischargers\\hugeelectricbatterydischargerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|solutionrelative:eco.rm.electrictakeover\\objects\\electricbatterydischargers\\hugeelectricbatterydischargerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|c:\\eco.rm\\source\\code\\eco.rm.electrictakeover\\objects\\electricbatterydischargers\\largeelectricbatterydischargerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|solutionrelative:eco.rm.electrictakeover\\objects\\electricbatterydischargers\\largeelectricbatterydischargerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|c:\\eco.rm\\source\\code\\eco.rm.electrictakeover\\objects\\electricbatterydischargers\\mediumelectricbatterydischargerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|solutionrelative:eco.rm.electrictakeover\\objects\\electricbatterydischargers\\mediumelectricbatterydischargerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|c:\\eco.rm\\source\\code\\eco.rm.electrictakeover\\objects\\electricbatterydischargers\\smallelectricbatterydischargerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|solutionrelative:eco.rm.electrictakeover\\objects\\electricbatterydischargers\\smallelectricbatterydischargerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|c:\\eco.rm\\source\\code\\eco.rm.electrictakeover\\items\\batteries\\hugebatteryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|solutionrelative:eco.rm.electrictakeover\\items\\batteries\\hugebatteryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|c:\\eco.rm\\source\\code\\eco.rm.electrictakeover\\objects\\mechanicalbatterydischargers\\largemechanicalbatterydischargerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|solutionrelative:eco.rm.electrictakeover\\objects\\mechanicalbatterydischargers\\largemechanicalbatterydischargerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|c:\\eco.rm\\source\\code\\eco.rm.electrictakeover\\items\\batteries\\largebatteryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|solutionrelative:eco.rm.electrictakeover\\items\\batteries\\largebatteryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|c:\\eco.rm\\source\\code\\eco.rm.electrictakeover\\items\\batteries\\mediumbatteryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|solutionrelative:eco.rm.electrictakeover\\items\\batteries\\mediumbatteryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|c:\\eco.rm\\source\\code\\eco.rm.electrictakeover\\objects\\mechanicalbatterydischargers\\mediummechanicalbatterydischargerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|solutionrelative:eco.rm.electrictakeover\\objects\\mechanicalbatterydischargers\\mediummechanicalbatterydischargerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|c:\\eco.rm\\source\\code\\eco.rm.electrictakeover\\objects\\mechanicalbatterydischargers\\smallmechanicalbatterydischargerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|solutionrelative:eco.rm.electrictakeover\\objects\\mechanicalbatterydischargers\\smallmechanicalbatterydischargerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|c:\\eco.rm\\source\\code\\eco.rm.electrictakeover\\objects\\electricbatterychargers\\smallelectricbatterychargerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|solutionrelative:eco.rm.electrictakeover\\objects\\electricbatterychargers\\smallelectricbatterychargerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|c:\\eco.rm\\source\\code\\eco.rm.electrictakeover\\objects\\electricbatterychargers\\mediumelectricbatterychargerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|solutionrelative:eco.rm.electrictakeover\\objects\\electricbatterychargers\\mediumelectricbatterychargerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|c:\\eco.rm\\source\\code\\eco.rm.electrictakeover\\objects\\electricbatterychargers\\largeelectricbatterychargerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|solutionrelative:eco.rm.electrictakeover\\objects\\electricbatterychargers\\largeelectricbatterychargerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|c:\\eco.rm\\source\\code\\eco.rm.electrictakeover\\objects\\electricbatterychargers\\hugeelectricbatterychargerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|solutionrelative:eco.rm.electrictakeover\\objects\\electricbatterychargers\\hugeelectricbatterychargerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|c:\\eco.rm\\source\\code\\eco.rm.electrictakeover\\objects\\mechanicalbatterychargers\\largemechanicalbatterychargerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|solutionrelative:eco.rm.electrictakeover\\objects\\mechanicalbatterychargers\\largemechanicalbatterychargerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|c:\\eco.rm\\source\\code\\eco.rm.electrictakeover\\objects\\mechanicalbatterychargers\\hugemechanicalbatterychargerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|solutionrelative:eco.rm.electrictakeover\\objects\\mechanicalbatterychargers\\hugemechanicalbatterychargerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|c:\\eco.rm\\source\\code\\eco.rm.electrictakeover\\objects\\mechanicalbatterychargers\\mediummechanicalbatterychargerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|solutionrelative:eco.rm.electrictakeover\\objects\\mechanicalbatterychargers\\mediummechanicalbatterychargerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|c:\\eco.rm\\source\\code\\eco.rm.electrictakeover\\objects\\mechanicalbatterychargers\\smallmechanicalbatterychargerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|solutionrelative:eco.rm.electrictakeover\\objects\\mechanicalbatterychargers\\smallmechanicalbatterychargerobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|c:\\eco.rm\\source\\code\\eco.rm.electrictakeover\\utility\\batterytooltiplibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|solutionrelative:eco.rm.electrictakeover\\utility\\batterytooltiplibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|c:\\eco.rm\\source\\code\\eco.rm.electrictakeover\\components\\batteryinformationcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|solutionrelative:eco.rm.electrictakeover\\components\\batteryinformationcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|c:\\eco.rm\\source\\code\\eco.rm.electrictakeover\\items\\batteries\\batteryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|solutionrelative:eco.rm.electrictakeover\\items\\batteries\\batteryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|c:\\eco.rm\\source\\code\\eco.rm.electrictakeover\\components\\batteryconsumptioncomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|solutionrelative:eco.rm.electrictakeover\\components\\batteryconsumptioncomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|c:\\eco.rm\\source\\code\\eco.rm.electrictakeover\\components\\batterystoragecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|solutionrelative:eco.rm.electrictakeover\\components\\batterystoragecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|c:\\eco.rm\\source\\code\\eco.rm.electrictakeover\\components\\batterydischargercomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|solutionrelative:eco.rm.electrictakeover\\components\\batterydischargercomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|c:\\eco.rm\\source\\code\\eco.rm.electrictakeover\\components\\batterychargercomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA81F35-0A58-4133-897E-CBDFF386D0EB}|Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj|solutionrelative:eco.rm.electrictakeover\\components\\batterychargercomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E033B37-B0A0-4A96-841E-B1057CD7B368}|Eco.RM.Framework\\Eco.RM.Framework.csproj|c:\\eco.rm\\source\\code\\eco.rm.framework\\ui\\textbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E033B37-B0A0-4A96-841E-B1057CD7B368}|Eco.RM.Framework\\Eco.RM.Framework.csproj|solutionrelative:eco.rm.framework\\ui\\textbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E033B37-B0A0-4A96-841E-B1057CD7B368}|Eco.RM.Framework\\Eco.RM.Framework.csproj|c:\\eco.rm\\source\\code\\eco.rm.framework\\config\\globalconfigresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E033B37-B0A0-4A96-841E-B1057CD7B368}|Eco.RM.Framework\\Eco.RM.Framework.csproj|solutionrelative:eco.rm.framework\\config\\globalconfigresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E033B37-B0A0-4A96-841E-B1057CD7B368}|Eco.RM.Framework\\Eco.RM.Framework.csproj|c:\\eco.rm\\source\\code\\eco.rm.framework\\config\\globalconfigplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E033B37-B0A0-4A96-841E-B1057CD7B368}|Eco.RM.Framework\\Eco.RM.Framework.csproj|solutionrelative:eco.rm.framework\\config\\globalconfigplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E033B37-B0A0-4A96-841E-B1057CD7B368}|Eco.RM.Framework\\Eco.RM.Framework.csproj|c:\\eco.rm\\source\\code\\eco.rm.framework\\config\\models\\objectfeildconfigmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E033B37-B0A0-4A96-841E-B1057CD7B368}|Eco.RM.Framework\\Eco.RM.Framework.csproj|solutionrelative:eco.rm.framework\\config\\models\\objectfeildconfigmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E033B37-B0A0-4A96-841E-B1057CD7B368}|Eco.RM.Framework\\Eco.RM.Framework.csproj|c:\\eco.rm\\source\\code\\eco.rm.framework\\config\\models\\objectconfigmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E033B37-B0A0-4A96-841E-B1057CD7B368}|Eco.RM.Framework\\Eco.RM.Framework.csproj|solutionrelative:eco.rm.framework\\config\\models\\objectconfigmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E033B37-B0A0-4A96-841E-B1057CD7B368}|Eco.RM.Framework\\Eco.RM.Framework.csproj|c:\\eco.rm\\source\\code\\eco.rm.framework\\config\\models\\globalconfigmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E033B37-B0A0-4A96-841E-B1057CD7B368}|Eco.RM.Framework\\Eco.RM.Framework.csproj|solutionrelative:eco.rm.framework\\config\\models\\globalconfigmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6D50774-7CCB-4986-834C-A53116EB9AC6}|Solution Items{A6D50774-7CCB-4986-834C-A53116EB9AC6}|C:\\Eco.RM\\Source\\Code\\PostBuild.bat||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A6D50774-7CCB-4986-834C-A53116EB9AC6}|Solution Items{A6D50774-7CCB-4986-834C-A53116EB9AC6}|solutionrelative:PostBuild.bat||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SteamTruck.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\Vehicles\\TODO\\SteamTruck.cs",
+              "RelativeDocumentMoniker": "Eco.RM.ElectricTakeover\\Objects\\Vehicles\\TODO\\SteamTruck.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\Vehicles\\TODO\\SteamTruck.cs",
+              "RelativeToolTip": "Eco.RM.ElectricTakeover\\Objects\\Vehicles\\TODO\\SteamTruck.cs",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAwwLUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T06:19:07.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SkidSteer.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\Vehicles\\TODO\\SkidSteer.cs",
+              "RelativeDocumentMoniker": "Eco.RM.ElectricTakeover\\Objects\\Vehicles\\TODO\\SkidSteer.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\Vehicles\\TODO\\SkidSteer.cs",
+              "RelativeToolTip": "Eco.RM.ElectricTakeover\\Objects\\Vehicles\\TODO\\SkidSteer.cs",
+              "ViewState": "AgIAALMAAAAAAAAAAAAwwLYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T06:18:58.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PoweredCart.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\Vehicles\\TODO\\PoweredCart.cs",
+              "RelativeDocumentMoniker": "Eco.RM.ElectricTakeover\\Objects\\Vehicles\\TODO\\PoweredCart.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\Vehicles\\TODO\\PoweredCart.cs",
+              "RelativeToolTip": "Eco.RM.ElectricTakeover\\Objects\\Vehicles\\TODO\\PoweredCart.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAwwKsAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T06:18:53.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MediumFishingTrawler.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\Vehicles\\TODO\\MediumFishingTrawler.cs",
+              "RelativeDocumentMoniker": "Eco.RM.ElectricTakeover\\Objects\\Vehicles\\TODO\\MediumFishingTrawler.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\Vehicles\\TODO\\MediumFishingTrawler.cs",
+              "RelativeToolTip": "Eco.RM.ElectricTakeover\\Objects\\Vehicles\\TODO\\MediumFishingTrawler.cs",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAAAL8AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T06:14:56.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BatteryPoweredIndustrialBarge.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\Vehicles\\BatteryPoweredIndustrialBarge.cs",
+              "RelativeDocumentMoniker": "Eco.RM.ElectricTakeover\\Objects\\Vehicles\\BatteryPoweredIndustrialBarge.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\Vehicles\\BatteryPoweredIndustrialBarge.cs",
+              "RelativeToolTip": "Eco.RM.ElectricTakeover\\Objects\\Vehicles\\BatteryPoweredIndustrialBarge.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T06:14:34.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SteamTractor.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\Vehicles\\TODO\\SteamTractor.cs",
+              "RelativeDocumentMoniker": "Eco.RM.ElectricTakeover\\Objects\\Vehicles\\TODO\\SteamTractor.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\Vehicles\\TODO\\SteamTractor.cs",
+              "RelativeToolTip": "Eco.RM.ElectricTakeover\\Objects\\Vehicles\\TODO\\SteamTractor.cs",
+              "ViewState": "AgIAALwAAAAAAAAAAAAwwL0AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T06:19:02.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TrailerTruck.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\Vehicles\\TODO\\TrailerTruck.cs",
+              "RelativeDocumentMoniker": "Eco.RM.ElectricTakeover\\Objects\\Vehicles\\TODO\\TrailerTruck.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\Vehicles\\TODO\\TrailerTruck.cs",
+              "RelativeToolTip": "Eco.RM.ElectricTakeover\\Objects\\Vehicles\\TODO\\TrailerTruck.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAG8AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T06:15:40.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Truck.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\Vehicles\\TODO\\Truck.cs",
+              "RelativeDocumentMoniker": "Eco.RM.ElectricTakeover\\Objects\\Vehicles\\TODO\\Truck.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\Vehicles\\TODO\\Truck.cs",
+              "RelativeToolTip": "Eco.RM.ElectricTakeover\\Objects\\Vehicles\\TODO\\Truck.cs",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAowLMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T06:19:17.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WoodenTransportShip.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\Vehicles\\TODO\\WoodenTransportShip.cs",
+              "RelativeDocumentMoniker": "Eco.RM.ElectricTakeover\\Objects\\Vehicles\\TODO\\WoodenTransportShip.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\Vehicles\\TODO\\WoodenTransportShip.cs",
+              "RelativeToolTip": "Eco.RM.ElectricTakeover\\Objects\\Vehicles\\TODO\\WoodenTransportShip.cs",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAcwLAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T06:16:06.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BatteryPoweredExcavator.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\Vehicles\\BatteryPoweredExcavator.cs",
+              "RelativeDocumentMoniker": "Eco.RM.ElectricTakeover\\Objects\\Vehicles\\BatteryPoweredExcavator.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\Vehicles\\BatteryPoweredExcavator.cs",
+              "RelativeToolTip": "Eco.RM.ElectricTakeover\\Objects\\Vehicles\\BatteryPoweredExcavator.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T06:16:24.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BatteryPoweredCrane.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\Vehicles\\BatteryPoweredCrane.cs",
+              "RelativeDocumentMoniker": "Eco.RM.ElectricTakeover\\Objects\\Vehicles\\BatteryPoweredCrane.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\Vehicles\\BatteryPoweredCrane.cs",
+              "RelativeToolTip": "Eco.RM.ElectricTakeover\\Objects\\Vehicles\\BatteryPoweredCrane.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T06:09:32.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HugeElectricBatteryDischargerObject.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\ElectricBatteryDischargers\\HugeElectricBatteryDischargerObject.cs",
+              "RelativeDocumentMoniker": "Eco.RM.ElectricTakeover\\Objects\\ElectricBatteryDischargers\\HugeElectricBatteryDischargerObject.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\ElectricBatteryDischargers\\HugeElectricBatteryDischargerObject.cs",
+              "RelativeToolTip": "Eco.RM.ElectricTakeover\\Objects\\ElectricBatteryDischargers\\HugeElectricBatteryDischargerObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T06:06:52.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LargeElectricBatteryDischargerObject.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\ElectricBatteryDischargers\\LargeElectricBatteryDischargerObject.cs",
+              "RelativeDocumentMoniker": "Eco.RM.ElectricTakeover\\Objects\\ElectricBatteryDischargers\\LargeElectricBatteryDischargerObject.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\ElectricBatteryDischargers\\LargeElectricBatteryDischargerObject.cs",
+              "RelativeToolTip": "Eco.RM.ElectricTakeover\\Objects\\ElectricBatteryDischargers\\LargeElectricBatteryDischargerObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T06:06:18.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MediumElectricBatteryDischargerObject.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\ElectricBatteryDischargers\\MediumElectricBatteryDischargerObject.cs",
+              "RelativeDocumentMoniker": "Eco.RM.ElectricTakeover\\Objects\\ElectricBatteryDischargers\\MediumElectricBatteryDischargerObject.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\ElectricBatteryDischargers\\MediumElectricBatteryDischargerObject.cs",
+              "RelativeToolTip": "Eco.RM.ElectricTakeover\\Objects\\ElectricBatteryDischargers\\MediumElectricBatteryDischargerObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T06:05:53.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SmallElectricBatteryDischargerObject.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\ElectricBatteryDischargers\\SmallElectricBatteryDischargerObject.cs",
+              "RelativeDocumentMoniker": "Eco.RM.ElectricTakeover\\Objects\\ElectricBatteryDischargers\\SmallElectricBatteryDischargerObject.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\ElectricBatteryDischargers\\SmallElectricBatteryDischargerObject.cs",
+              "RelativeToolTip": "Eco.RM.ElectricTakeover\\Objects\\ElectricBatteryDischargers\\SmallElectricBatteryDischargerObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T06:05:17.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HugeMechanicalBatteryDischargerObject.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\MechanicalBatteryDischargers\\HugeMechanicalBatteryDischargerObject.cs",
+              "RelativeDocumentMoniker": "Eco.RM.ElectricTakeover\\Objects\\MechanicalBatteryDischargers\\HugeMechanicalBatteryDischargerObject.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\MechanicalBatteryDischargers\\HugeMechanicalBatteryDischargerObject.cs",
+              "RelativeToolTip": "Eco.RM.ElectricTakeover\\Objects\\MechanicalBatteryDischargers\\HugeMechanicalBatteryDischargerObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T06:00:25.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SmallBatteryItem.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Items\\Batteries\\SmallBatteryItem.cs",
+              "RelativeDocumentMoniker": "Eco.RM.ElectricTakeover\\Items\\Batteries\\SmallBatteryItem.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Items\\Batteries\\SmallBatteryItem.cs",
+              "RelativeToolTip": "Eco.RM.ElectricTakeover\\Items\\Batteries\\SmallBatteryItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T07:21:27.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SmallMechanicalBatteryDischargerObject.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\MechanicalBatteryDischargers\\SmallMechanicalBatteryDischargerObject.cs",
+              "RelativeDocumentMoniker": "Eco.RM.ElectricTakeover\\Objects\\MechanicalBatteryDischargers\\SmallMechanicalBatteryDischargerObject.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\MechanicalBatteryDischargers\\SmallMechanicalBatteryDischargerObject.cs",
+              "RelativeToolTip": "Eco.RM.ElectricTakeover\\Objects\\MechanicalBatteryDischargers\\SmallMechanicalBatteryDischargerObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T21:24:25.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MediumMechanicalBatteryDischargerObject.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\MechanicalBatteryDischargers\\MediumMechanicalBatteryDischargerObject.cs",
+              "RelativeDocumentMoniker": "Eco.RM.ElectricTakeover\\Objects\\MechanicalBatteryDischargers\\MediumMechanicalBatteryDischargerObject.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\MechanicalBatteryDischargers\\MediumMechanicalBatteryDischargerObject.cs",
+              "RelativeToolTip": "Eco.RM.ElectricTakeover\\Objects\\MechanicalBatteryDischargers\\MediumMechanicalBatteryDischargerObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T06:00:08.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LargeMechanicalBatteryDischargerObject.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\MechanicalBatteryDischargers\\LargeMechanicalBatteryDischargerObject.cs",
+              "RelativeDocumentMoniker": "Eco.RM.ElectricTakeover\\Objects\\MechanicalBatteryDischargers\\LargeMechanicalBatteryDischargerObject.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\MechanicalBatteryDischargers\\LargeMechanicalBatteryDischargerObject.cs",
+              "RelativeToolTip": "Eco.RM.ElectricTakeover\\Objects\\MechanicalBatteryDischargers\\LargeMechanicalBatteryDischargerObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T06:00:11.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MediumBatteryItem.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Items\\Batteries\\MediumBatteryItem.cs",
+              "RelativeDocumentMoniker": "Eco.RM.ElectricTakeover\\Items\\Batteries\\MediumBatteryItem.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Items\\Batteries\\MediumBatteryItem.cs",
+              "RelativeToolTip": "Eco.RM.ElectricTakeover\\Items\\Batteries\\MediumBatteryItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T05:30:46.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LargeBatteryItem.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Items\\Batteries\\LargeBatteryItem.cs",
+              "RelativeDocumentMoniker": "Eco.RM.ElectricTakeover\\Items\\Batteries\\LargeBatteryItem.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Items\\Batteries\\LargeBatteryItem.cs",
+              "RelativeToolTip": "Eco.RM.ElectricTakeover\\Items\\Batteries\\LargeBatteryItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T05:33:00.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HugeBatteryItem.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Items\\Batteries\\HugeBatteryItem.cs",
+              "RelativeDocumentMoniker": "Eco.RM.ElectricTakeover\\Items\\Batteries\\HugeBatteryItem.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Items\\Batteries\\HugeBatteryItem.cs",
+              "RelativeToolTip": "Eco.RM.ElectricTakeover\\Items\\Batteries\\HugeBatteryItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T05:34:11.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SmallElectricBatteryChargerObject.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\ElectricBatteryChargers\\SmallElectricBatteryChargerObject.cs",
+              "RelativeDocumentMoniker": "Eco.RM.ElectricTakeover\\Objects\\ElectricBatteryChargers\\SmallElectricBatteryChargerObject.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\ElectricBatteryChargers\\SmallElectricBatteryChargerObject.cs",
+              "RelativeToolTip": "Eco.RM.ElectricTakeover\\Objects\\ElectricBatteryChargers\\SmallElectricBatteryChargerObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T05:52:17.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MediumElectricBatteryChargerObject.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\ElectricBatteryChargers\\MediumElectricBatteryChargerObject.cs",
+              "RelativeDocumentMoniker": "Eco.RM.ElectricTakeover\\Objects\\ElectricBatteryChargers\\MediumElectricBatteryChargerObject.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\ElectricBatteryChargers\\MediumElectricBatteryChargerObject.cs",
+              "RelativeToolTip": "Eco.RM.ElectricTakeover\\Objects\\ElectricBatteryChargers\\MediumElectricBatteryChargerObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T05:53:25.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LargeElectricBatteryChargerObject.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\ElectricBatteryChargers\\LargeElectricBatteryChargerObject.cs",
+              "RelativeDocumentMoniker": "Eco.RM.ElectricTakeover\\Objects\\ElectricBatteryChargers\\LargeElectricBatteryChargerObject.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\ElectricBatteryChargers\\LargeElectricBatteryChargerObject.cs",
+              "RelativeToolTip": "Eco.RM.ElectricTakeover\\Objects\\ElectricBatteryChargers\\LargeElectricBatteryChargerObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T05:53:26.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "HugeElectricBatteryChargerObject.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\ElectricBatteryChargers\\HugeElectricBatteryChargerObject.cs",
+              "RelativeDocumentMoniker": "Eco.RM.ElectricTakeover\\Objects\\ElectricBatteryChargers\\HugeElectricBatteryChargerObject.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\ElectricBatteryChargers\\HugeElectricBatteryChargerObject.cs",
+              "RelativeToolTip": "Eco.RM.ElectricTakeover\\Objects\\ElectricBatteryChargers\\HugeElectricBatteryChargerObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T05:53:27.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "LargeMechanicalBatteryChargerObject.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\MechanicalBatteryChargers\\LargeMechanicalBatteryChargerObject.cs",
+              "RelativeDocumentMoniker": "Eco.RM.ElectricTakeover\\Objects\\MechanicalBatteryChargers\\LargeMechanicalBatteryChargerObject.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\MechanicalBatteryChargers\\LargeMechanicalBatteryChargerObject.cs",
+              "RelativeToolTip": "Eco.RM.ElectricTakeover\\Objects\\MechanicalBatteryChargers\\LargeMechanicalBatteryChargerObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T05:44:22.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "HugeMechanicalBatteryChargerObject.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\MechanicalBatteryChargers\\HugeMechanicalBatteryChargerObject.cs",
+              "RelativeDocumentMoniker": "Eco.RM.ElectricTakeover\\Objects\\MechanicalBatteryChargers\\HugeMechanicalBatteryChargerObject.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\MechanicalBatteryChargers\\HugeMechanicalBatteryChargerObject.cs",
+              "RelativeToolTip": "Eco.RM.ElectricTakeover\\Objects\\MechanicalBatteryChargers\\HugeMechanicalBatteryChargerObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T05:50:08.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "SmallMechanicalBatteryChargerObject.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\MechanicalBatteryChargers\\SmallMechanicalBatteryChargerObject.cs",
+              "RelativeDocumentMoniker": "Eco.RM.ElectricTakeover\\Objects\\MechanicalBatteryChargers\\SmallMechanicalBatteryChargerObject.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\MechanicalBatteryChargers\\SmallMechanicalBatteryChargerObject.cs",
+              "RelativeToolTip": "Eco.RM.ElectricTakeover\\Objects\\MechanicalBatteryChargers\\SmallMechanicalBatteryChargerObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T18:38:24.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MediumMechanicalBatteryChargerObject.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\MechanicalBatteryChargers\\MediumMechanicalBatteryChargerObject.cs",
+              "RelativeDocumentMoniker": "Eco.RM.ElectricTakeover\\Objects\\MechanicalBatteryChargers\\MediumMechanicalBatteryChargerObject.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Objects\\MechanicalBatteryChargers\\MediumMechanicalBatteryChargerObject.cs",
+              "RelativeToolTip": "Eco.RM.ElectricTakeover\\Objects\\MechanicalBatteryChargers\\MediumMechanicalBatteryChargerObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T05:44:13.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "BatteryTooltipLibrary.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Utility\\BatteryTooltipLibrary.cs",
+              "RelativeDocumentMoniker": "Eco.RM.ElectricTakeover\\Utility\\BatteryTooltipLibrary.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Utility\\BatteryTooltipLibrary.cs",
+              "RelativeToolTip": "Eco.RM.ElectricTakeover\\Utility\\BatteryTooltipLibrary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T07:25:14.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "BatteryInformationComponent.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Components\\BatteryInformationComponent.cs",
+              "RelativeDocumentMoniker": "Eco.RM.ElectricTakeover\\Components\\BatteryInformationComponent.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Components\\BatteryInformationComponent.cs",
+              "RelativeToolTip": "Eco.RM.ElectricTakeover\\Components\\BatteryInformationComponent.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T18:08:35.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "BatteryConsumptionComponent.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Components\\BatteryConsumptionComponent.cs",
+              "RelativeDocumentMoniker": "Eco.RM.ElectricTakeover\\Components\\BatteryConsumptionComponent.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Components\\BatteryConsumptionComponent.cs",
+              "RelativeToolTip": "Eco.RM.ElectricTakeover\\Components\\BatteryConsumptionComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T05:21:33.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "BatteryDischargerComponent.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Components\\BatteryDischargerComponent.cs",
+              "RelativeDocumentMoniker": "Eco.RM.ElectricTakeover\\Components\\BatteryDischargerComponent.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Components\\BatteryDischargerComponent.cs",
+              "RelativeToolTip": "Eco.RM.ElectricTakeover\\Components\\BatteryDischargerComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T20:30:18.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "BatteryItem.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Items\\Batteries\\BatteryItem.cs",
+              "RelativeDocumentMoniker": "Eco.RM.ElectricTakeover\\Items\\Batteries\\BatteryItem.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Items\\Batteries\\BatteryItem.cs",
+              "RelativeToolTip": "Eco.RM.ElectricTakeover\\Items\\Batteries\\BatteryItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T07:21:29.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "BatteryChargerComponent.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Components\\BatteryChargerComponent.cs",
+              "RelativeDocumentMoniker": "Eco.RM.ElectricTakeover\\Components\\BatteryChargerComponent.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Components\\BatteryChargerComponent.cs",
+              "RelativeToolTip": "Eco.RM.ElectricTakeover\\Components\\BatteryChargerComponent.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwBAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T02:04:10.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "TextBox.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.Framework\\UI\\TextBox.cs",
+              "RelativeDocumentMoniker": "Eco.RM.Framework\\UI\\TextBox.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.Framework\\UI\\TextBox.cs",
+              "RelativeToolTip": "Eco.RM.Framework\\UI\\TextBox.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T17:03:25.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "BatteryStorageComponent.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Components\\BatteryStorageComponent.cs",
+              "RelativeDocumentMoniker": "Eco.RM.ElectricTakeover\\Components\\BatteryStorageComponent.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.ElectricTakeover\\Components\\BatteryStorageComponent.cs",
+              "RelativeToolTip": "Eco.RM.ElectricTakeover\\Components\\BatteryStorageComponent.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAswBkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T17:08:10.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "GlobalConfigResolver.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.Framework\\Config\\GlobalConfigResolver.cs",
+              "RelativeDocumentMoniker": "Eco.RM.Framework\\Config\\GlobalConfigResolver.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.Framework\\Config\\GlobalConfigResolver.cs",
+              "RelativeToolTip": "Eco.RM.Framework\\Config\\GlobalConfigResolver.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAIwDEAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T07:56:00.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "GlobalConfigPlugin.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.Framework\\Config\\GlobalConfigPlugin.cs",
+              "RelativeDocumentMoniker": "Eco.RM.Framework\\Config\\GlobalConfigPlugin.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.Framework\\Config\\GlobalConfigPlugin.cs",
+              "RelativeToolTip": "Eco.RM.Framework\\Config\\GlobalConfigPlugin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T15:52:26.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ObjectFeildConfigModel.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.Framework\\Config\\Models\\ObjectFeildConfigModel.cs",
+              "RelativeDocumentMoniker": "Eco.RM.Framework\\Config\\Models\\ObjectFeildConfigModel.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.Framework\\Config\\Models\\ObjectFeildConfigModel.cs",
+              "RelativeToolTip": "Eco.RM.Framework\\Config\\Models\\ObjectFeildConfigModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T16:33:59.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "GlobalConfigModel.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.Framework\\Config\\Models\\GlobalConfigModel.cs",
+              "RelativeDocumentMoniker": "Eco.RM.Framework\\Config\\Models\\GlobalConfigModel.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.Framework\\Config\\Models\\GlobalConfigModel.cs",
+              "RelativeToolTip": "Eco.RM.Framework\\Config\\Models\\GlobalConfigModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T07:29:54.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ObjectConfigModel.cs",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\Eco.RM.Framework\\Config\\Models\\ObjectConfigModel.cs",
+              "RelativeDocumentMoniker": "Eco.RM.Framework\\Config\\Models\\ObjectConfigModel.cs",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\Eco.RM.Framework\\Config\\Models\\ObjectConfigModel.cs",
+              "RelativeToolTip": "Eco.RM.Framework\\Config\\Models\\ObjectConfigModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T07:29:25.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "PostBuild.bat",
+              "DocumentMoniker": "C:\\Eco.RM\\Source\\Code\\PostBuild.bat",
+              "RelativeDocumentMoniker": "PostBuild.bat",
+              "ToolTip": "C:\\Eco.RM\\Source\\Code\\PostBuild.bat",
+              "RelativeToolTip": "PostBuild.bat",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000614|",
+              "WhenOpened": "2024-11-28T21:38:15.81Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
