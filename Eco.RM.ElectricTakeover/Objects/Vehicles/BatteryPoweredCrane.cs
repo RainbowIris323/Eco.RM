@@ -14,6 +14,10 @@ using Eco.Shared.Items;
 using static Eco.Gameplay.Components.PartsComponent;
 using Eco.Mods.TechTree;
 using Eco.RM.ElectricTakeover.Components;
+using Eco.Gameplay.Items.Recipes;
+using Eco.RM.Framework.Config;
+using Eco.RM.ElectricTakeover.Items;
+using Eco.RM.ElectricTakeover.Utility;
 
 namespace Eco.RM.ElectricTakeover.Objects;
 
@@ -29,6 +33,45 @@ public partial class BatteryPoweredCraneItem : WorldObjectItem<BatteryPoweredCra
     [Serialized, SyncToView, NewTooltipChildren(CacheAs.Instance, flags: TTFlags.AllowNonControllerTypeForChildren)] public object PersistentData { get; set; }
     protected override OccupancyContext GetOccupancyContext => new SideAttachedContext(DirectionAxisFlags.Down, WorldObject.GetOccupancyInfo(this.WorldObjectType));
 }
+
+public class BatteryPoweredCraneRecipe : RecipeFamily, IConfigurableRecipe
+{
+    static RecipeDefaultModel Defaults => new()
+    {
+        ModelType = typeof(BatteryPoweredCraneRecipe).Name,
+        Assembly = typeof(BatteryPoweredCraneRecipe).AssemblyQualifiedName,
+        HiddenName = "Battery Powered Crane",
+        LocalizableName = Localizer.DoStr("Battery Powered Crane"),
+        IngredientList =
+        [
+            new RMIngredient(nameof(CraneItem), false, 1, true),
+            new RMIngredient(nameof(ImprovedElectricUpgradeKitItem), false, 1, true),
+
+        ],
+        ProductList =
+        [
+            new RMCraftable(nameof(BatteryPoweredCraneItem), 1),
+        ],
+        BaseExperienceOnCraft = 0,
+        BaseLabor = 1,
+        BaseCraftTime = 1,
+        CraftTimeIsStatic = false,
+        CraftingStation = nameof(AssemblyTableItem),
+    };
+
+    static BatteryPoweredCraneRecipe() { RMRecipeResolver.AddDefaults(Defaults); }
+
+    public BatteryPoweredCraneRecipe()
+    {
+        Recipes = RMRecipeResolver.Obj.ResolveRecipe(this);
+        LaborInCalories = RMRecipeResolver.Obj.ResolveLabor(this);
+        CraftMinutes = RMRecipeResolver.Obj.ResolveCraftMinutes(this);
+        ExperienceOnCraft = RMRecipeResolver.Obj.ResolveExperience(this);
+        Initialize(Localizer.DoStr(Defaults.LocalizableName), GetType());
+        CraftingComponent.AddRecipe(RMRecipeResolver.Obj.ResolveStation(this), this);
+    }
+}
+
 
 [Serialized]
 [RequireComponent(typeof(StandaloneAuthComponent))]
@@ -47,15 +90,15 @@ public partial class BatteryPoweredCraneObject : PhysicsWorldObject, IRepresents
 {
     static BatteryPoweredCraneObject()
     {
-        AddOccupancy<BatteryPoweredCraneObject>(new List<BlockOccupancy>(0));
+        AddOccupancy<BatteryPoweredCraneObject>([]);
     }
     public override TableTextureMode TableTexture => TableTextureMode.Metal;
     public Type RepresentedItemType { get { return typeof(BatteryPoweredCraneItem); } }
 
-    private static string[] fuelTagList = new string[]
-    {
+    private static string[] fuelTagList =
+    [
         "Burnable Fuel",
-    };
+    ];
     private BatteryPoweredCraneObject() { }
     protected override void Initialize()
     {
@@ -63,13 +106,13 @@ public partial class BatteryPoweredCraneObject : PhysicsWorldObject, IRepresents
         GetComponent<BatteryConsumptionComponent>().Initialize(1, 150);
         GetComponent<CraneToolComponent>().Initialize(200, 150);
         GetComponent<MinimapComponent>().SetCategory(Localizer.DoStr("Vehicles"));
-        GetComponent<VehicleComponent>().Initialize(30, 1,1);
+        GetComponent<VehicleComponent>().Initialize(ElectricTakeoverConfig.Obj.GetBatteryPoweredVehicleSpeed(30), 1,1);
         GetComponent<VehicleComponent>().FailDriveMsg = Localizer.Do($"You are too hungry to drive {DisplayName}!");
         {
-            GetComponent<PartsComponent>().Config(() => LocString.Empty, new PartInfo[]
-            {
+            GetComponent<PartsComponent>().Config(() => LocString.Empty,
+            [
                 new() { TypeName = nameof(PortableSteamEngineItem), Quantity = 1},
-            });
+            ]);
         }
     }
 }

@@ -14,6 +14,10 @@ using Eco.Shared.Items;
 using static Eco.Gameplay.Components.PartsComponent;
 using Eco.Mods.TechTree;
 using Eco.RM.ElectricTakeover.Components;
+using Eco.Gameplay.Items.Recipes;
+using Eco.RM.Framework.Config;
+using Eco.RM.ElectricTakeover.Items;
+using Eco.RM.ElectricTakeover.Utility;
 
 namespace Eco.RM.ElectricTakeover.Objects;
 
@@ -29,6 +33,44 @@ public partial class BatteryPoweredIndustrialBargeItem : WorldObjectItem<Battery
     public float InteractDistance => DefaultInteractDistance.WaterPlacement;
     public bool ShouldHighlight(Type block) => false;
     [Serialized, SyncToView, NewTooltipChildren(CacheAs.Instance, flags: TTFlags.AllowNonControllerTypeForChildren)] public object PersistentData { get; set; }
+}
+
+public class BatteryPoweredIndustrialBargeRecipe : RecipeFamily, IConfigurableRecipe
+{
+    static RecipeDefaultModel Defaults => new()
+    {
+        ModelType = typeof(BatteryPoweredIndustrialBargeRecipe).Name,
+        Assembly = typeof(BatteryPoweredIndustrialBargeRecipe).AssemblyQualifiedName,
+        HiddenName = "Battery Powered Industrial Barge",
+        LocalizableName = Localizer.DoStr("Battery Powered Industrial Barge"),
+        IngredientList =
+        [
+            new RMIngredient(nameof(IndustrialBargeItem), false, 1, true),
+            new RMIngredient(nameof(AdvancedElectricUpgradeKitItem), false, 1, true),
+
+        ],
+        ProductList =
+        [
+            new RMCraftable(nameof(BatteryPoweredIndustrialBargeItem), 1),
+        ],
+        BaseExperienceOnCraft = 0,
+        BaseLabor = 1,
+        BaseCraftTime = 1,
+        CraftTimeIsStatic = false,
+        CraftingStation = nameof(AssemblyTableItem),
+    };
+
+    static BatteryPoweredIndustrialBargeRecipe() { RMRecipeResolver.AddDefaults(Defaults); }
+
+    public BatteryPoweredIndustrialBargeRecipe()
+    {
+        Recipes = RMRecipeResolver.Obj.ResolveRecipe(this);
+        LaborInCalories = RMRecipeResolver.Obj.ResolveLabor(this);
+        CraftMinutes = RMRecipeResolver.Obj.ResolveCraftMinutes(this);
+        ExperienceOnCraft = RMRecipeResolver.Obj.ResolveExperience(this);
+        Initialize(Localizer.DoStr(Defaults.LocalizableName), GetType());
+        CraftingComponent.AddRecipe(RMRecipeResolver.Obj.ResolveStation(this), this);
+    }
 }
 
 [Serialized]
@@ -48,37 +90,32 @@ public partial class BatteryPoweredIndustrialBargeObject : PhysicsWorldObject, I
 {
     static BatteryPoweredIndustrialBargeObject()
     {
-        WorldObject.AddOccupancy<BatteryPoweredIndustrialBargeObject>(new List<BlockOccupancy>(0));
+        AddOccupancy<BatteryPoweredIndustrialBargeObject>([]);
     }
     public override float InteractDistance => DefaultInteractDistance.WaterPlacement;
     public override TableTextureMode TableTexture => TableTextureMode.Metal;
-    public override bool PlacesBlocks            => false;
+    public override bool PlacesBlocks => false;
     public override LocString DisplayName { get { return Localizer.DoStr("Battery Powered Industrial Barge"); } }
     public Type RepresentedItemType { get { return typeof(BatteryPoweredIndustrialBargeItem); } }
-
-    private static string[] fuelTagList = new string[]
-    {
-        "Liquid Fuel",
-    };
     private BatteryPoweredIndustrialBargeObject() { }
     protected override void Initialize()
     {
         base.Initialize();
-        this.GetComponent<BatteryConsumptionComponent>().Initialize(1, 150);
-        this.GetComponent<VehicleComponent>().HumanPowered(1);
-        this.GetComponent<PublicStorageComponent>().Initialize(96, 32000000);
-        this.GetComponent<MinimapComponent>().InitAsMovable();
-        this.GetComponent<MinimapComponent>().SetCategory(Localizer.DoStr("Vehicles"));
-        this.GetComponent<VehicleComponent>().Initialize(10, 2,1, null, true);
-        this.GetComponent<BoatComponent>().Size = BoatComponent.BoatSize.Large;
-        this.GetComponent<VehicleComponent>().FailDriveMsg = Localizer.Do($"You are too hungry to drive {this.DisplayName}!");
-                    {
-            this.GetComponent<PartsComponent>().Config(() => LocString.Empty, new PartInfo[]
-            {
-                                    new() { TypeName = nameof(CombustionEngineItem), Quantity = 2},
-                                    new() { TypeName = nameof(LubricantItem), Quantity = 2},
-                                    new() { TypeName = nameof(MetalRudderItem), Quantity = 1},
-                                });
+        GetComponent<BatteryConsumptionComponent>().Initialize(1, 150);
+        GetComponent<VehicleComponent>().HumanPowered(1);
+        GetComponent<PublicStorageComponent>().Initialize(96, 32000000);
+        GetComponent<MinimapComponent>().InitAsMovable();
+        GetComponent<MinimapComponent>().SetCategory(Localizer.DoStr("Vehicles"));
+        GetComponent<VehicleComponent>().Initialize(ElectricTakeoverConfig.Obj.GetBatteryPoweredVehicleSpeed(10), 2,1, null, true);
+        GetComponent<BoatComponent>().Size = BoatComponent.BoatSize.Large;
+        GetComponent<VehicleComponent>().FailDriveMsg = Localizer.Do($"You are too hungry to drive {DisplayName}!");
+        {
+            GetComponent<PartsComponent>().Config(() => LocString.Empty,
+            [
+                new() { TypeName = nameof(CombustionEngineItem), Quantity = 2},
+                new() { TypeName = nameof(LubricantItem), Quantity = 2},
+                new() { TypeName = nameof(MetalRudderItem), Quantity = 1},
+            ]);
         }
     }
 }

@@ -28,3 +28,20 @@ C:\Eco.RM\Source\Code\Eco.RM.ElectricTakeover\obj\Debug\net7.0\Eco.RM.ElectricTa
 C:\Eco.RM\Source\Code\Eco.RM.ElectricTakeover\obj\Debug\net7.0\refint\Eco.RM.ElectricTakeover.dll
 C:\Eco.RM\Source\Code\Eco.RM.ElectricTakeover\obj\Debug\net7.0\Eco.RM.ElectricTakeover.pdb
 C:\Eco.RM\Source\Code\Eco.RM.ElectricTakeover\obj\Debug\net7.0\ref\Eco.RM.ElectricTakeover.dll
+C:\Eco.RM\Source\Code\Eco.RM.ElectricTakeover\obj\Debug\net7.0\Eco.RM.ElectricTakeover.sourcelink.json
+C:\Eco Modding\Eco.RM - Code\Eco.RM.ElectricTakeover\bin\Debug\net7.0\Eco.RM.ElectricTakeover.deps.json
+C:\Eco Modding\Eco.RM - Code\Eco.RM.ElectricTakeover\bin\Debug\net7.0\Eco.RM.ElectricTakeover.dll
+C:\Eco Modding\Eco.RM - Code\Eco.RM.ElectricTakeover\bin\Debug\net7.0\Eco.RM.ElectricTakeover.pdb
+C:\Eco Modding\Eco.RM - Code\Eco.RM.ElectricTakeover\bin\Debug\net7.0\Eco.RM.Framework.dll
+C:\Eco Modding\Eco.RM - Code\Eco.RM.ElectricTakeover\bin\Debug\net7.0\Eco.RM.Framework.pdb
+C:\Eco Modding\Eco.RM - Code\Eco.RM.ElectricTakeover\obj\Debug\net7.0\Eco.RM.ElectricTakeover.csproj.AssemblyReference.cache
+C:\Eco Modding\Eco.RM - Code\Eco.RM.ElectricTakeover\obj\Debug\net7.0\Eco.RM.ElectricTakeover.GeneratedMSBuildEditorConfig.editorconfig
+C:\Eco Modding\Eco.RM - Code\Eco.RM.ElectricTakeover\obj\Debug\net7.0\Eco.RM.ElectricTakeover.AssemblyInfoInputs.cache
+C:\Eco Modding\Eco.RM - Code\Eco.RM.ElectricTakeover\obj\Debug\net7.0\Eco.RM.ElectricTakeover.AssemblyInfo.cs
+C:\Eco Modding\Eco.RM - Code\Eco.RM.ElectricTakeover\obj\Debug\net7.0\Eco.RM.ElectricTakeover.csproj.CoreCompileInputs.cache
+C:\Eco Modding\Eco.RM - Code\Eco.RM.ElectricTakeover\obj\Debug\net7.0\Eco.RM.ElectricTakeover.sourcelink.json
+C:\Eco Modding\Eco.RM - Code\Eco.RM.ElectricTakeover\obj\Debug\net7.0\Eco.RM.E.F61A98A8.Up2Date
+C:\Eco Modding\Eco.RM - Code\Eco.RM.ElectricTakeover\obj\Debug\net7.0\Eco.RM.ElectricTakeover.dll
+C:\Eco Modding\Eco.RM - Code\Eco.RM.ElectricTakeover\obj\Debug\net7.0\refint\Eco.RM.ElectricTakeover.dll
+C:\Eco Modding\Eco.RM - Code\Eco.RM.ElectricTakeover\obj\Debug\net7.0\Eco.RM.ElectricTakeover.pdb
+C:\Eco Modding\Eco.RM - Code\Eco.RM.ElectricTakeover\obj\Debug\net7.0\ref\Eco.RM.ElectricTakeover.dll

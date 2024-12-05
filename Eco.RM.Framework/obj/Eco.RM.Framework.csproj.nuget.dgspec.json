@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Eco.RM\\Source\\Code\\Eco.RM.Framework\\Eco.RM.Framework.csproj": {}
+    "C:\\Eco Modding\\Eco.RM - Code\\Eco.RM.Framework\\Eco.RM.Framework.csproj": {}
   },
   "projects": {
-    "C:\\Eco.RM\\Source\\Code\\Eco.RM.Framework\\Eco.RM.Framework.csproj": {
+    "C:\\Eco Modding\\Eco.RM - Code\\Eco.RM.Framework\\Eco.RM.Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Eco.RM\\Source\\Code\\Eco.RM.Framework\\Eco.RM.Framework.csproj",
+        "projectUniqueName": "C:\\Eco Modding\\Eco.RM - Code\\Eco.RM.Framework\\Eco.RM.Framework.csproj",
         "projectName": "Eco.RM.Framework",
-        "projectPath": "C:\\Eco.RM\\Source\\Code\\Eco.RM.Framework\\Eco.RM.Framework.csproj",
+        "projectPath": "C:\\Eco Modding\\Eco.RM - Code\\Eco.RM.Framework\\Eco.RM.Framework.csproj",
         "packagesPath": "C:\\Users\\rainb\\.nuget\\packages\\",
-        "outputPath": "C:\\Eco.RM\\Source\\Code\\Eco.RM.Framework\\obj\\",
+        "outputPath": "C:\\Eco Modding\\Eco.RM - Code\\Eco.RM.Framework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,15 +22,16 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
+          "C:\\Eco Modding\\Source Code\\Eco.CodeOnly\\Build\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -47,12 +48,12 @@
         "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Eco.ReferenceAssemblies": {
               "target": "Package",
-              "version": "[0.11.1.2-beta-release-767, )"
+              "version": "[0.11.1.4-beta-release-802, )"
             }
           },
           "imports": [
@@ -71,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,5 +1,4 @@
-﻿using Eco.Core.Utils;
-using Eco.Shared.Localization;
+﻿using Eco.Shared.Localization;
 using System.Text.Json.Serialization;
 
 namespace Eco.RM.Framework.Config;

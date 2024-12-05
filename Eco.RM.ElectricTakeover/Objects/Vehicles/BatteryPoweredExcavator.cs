@@ -14,6 +14,10 @@ using Eco.Shared.Items;
 using static Eco.Gameplay.Components.PartsComponent;
 using Eco.Mods.TechTree;
 using Eco.RM.ElectricTakeover.Components;
+using Eco.Gameplay.Items.Recipes;
+using Eco.RM.Framework.Config;
+using Eco.RM.ElectricTakeover.Items;
+using Eco.RM.ElectricTakeover.Utility;
 
 namespace Eco.RM.ElectricTakeover.Objects;
 
@@ -28,6 +32,44 @@ namespace Eco.RM.ElectricTakeover.Objects;
 public partial class BatteryPoweredExcavatorItem : WorldObjectItem<BatteryPoweredExcavatorObject>, IPersistentData
 {
     [Serialized, SyncToView, NewTooltipChildren(CacheAs.Instance, flags: TTFlags.AllowNonControllerTypeForChildren)] public object PersistentData { get; set; }
+}
+
+public class BatteryPoweredExcavatorRecipe : RecipeFamily, IConfigurableRecipe
+{
+    static RecipeDefaultModel Defaults => new()
+    {
+        ModelType = typeof(BatteryPoweredExcavatorRecipe).Name,
+        Assembly = typeof(BatteryPoweredExcavatorRecipe).AssemblyQualifiedName,
+        HiddenName = "Battery Powered Excavator",
+        LocalizableName = Localizer.DoStr("Battery Powered Excavator"),
+        IngredientList =
+        [
+            new RMIngredient(nameof(ExcavatorItem), false, 1, true),
+            new RMIngredient(nameof(AdvancedElectricUpgradeKitItem), false, 1, true),
+
+        ],
+        ProductList =
+        [
+            new RMCraftable(nameof(BatteryPoweredExcavatorItem), 1),
+        ],
+        BaseExperienceOnCraft = 0,
+        BaseLabor = 1,
+        BaseCraftTime = 1,
+        CraftTimeIsStatic = false,
+        CraftingStation = nameof(AssemblyTableItem),
+    };
+
+    static BatteryPoweredExcavatorRecipe() { RMRecipeResolver.AddDefaults(Defaults); }
+
+    public BatteryPoweredExcavatorRecipe()
+    {
+        Recipes = RMRecipeResolver.Obj.ResolveRecipe(this);
+        LaborInCalories = RMRecipeResolver.Obj.ResolveLabor(this);
+        CraftMinutes = RMRecipeResolver.Obj.ResolveCraftMinutes(this);
+        ExperienceOnCraft = RMRecipeResolver.Obj.ResolveExperience(this);
+        Initialize(Localizer.DoStr(Defaults.LocalizableName), GetType());
+        CraftingComponent.AddRecipe(RMRecipeResolver.Obj.ResolveStation(this), this);
+    }
 }
 
 [Serialized]
@@ -47,7 +89,7 @@ public partial class BatteryPoweredExcavatorObject : PhysicsWorldObject, IRepres
 {
     static BatteryPoweredExcavatorObject()
     {
-        WorldObject.AddOccupancy<BatteryPoweredExcavatorObject>(new List<BlockOccupancy>(0));
+        AddOccupancy<BatteryPoweredExcavatorObject>([]);
     }
     public override TableTextureMode TableTexture => TableTextureMode.Metal;
     public override bool PlacesBlocks            => false;
@@ -57,23 +99,21 @@ public partial class BatteryPoweredExcavatorObject : PhysicsWorldObject, IRepres
     protected override void Initialize()
     {
         base.Initialize();         
-        this.GetComponent<CustomTextComponent>().Initialize(200);
-        this.GetComponent<BatteryConsumptionComponent>().Initialize(1, 275);
-        this.GetComponent<FuelConsumptionComponent>().Initialize(275);
-        this.GetComponent<VehicleComponent>().HumanPowered(2);
-        this.GetComponent<VehicleToolComponent>().Initialize(7, 3500000,
-        100, 200, 0, true, VehicleUtilities.GetInventoryRestriction(this));
-        this.GetComponent<MinimapComponent>().InitAsMovable();
-        this.GetComponent<MinimapComponent>().SetCategory(Localizer.DoStr("Vehicles"));
-        this.GetComponent<VehicleComponent>().Initialize(14, 1.5f,1);
-        this.GetComponent<VehicleComponent>().FailDriveMsg = Localizer.Do($"You are too hungry to drive {this.DisplayName}!");
+        GetComponent<CustomTextComponent>().Initialize(200);
+        GetComponent<BatteryConsumptionComponent>().Initialize(1, 275);
+        GetComponent<VehicleComponent>().HumanPowered(2);
+        GetComponent<VehicleToolComponent>().Initialize(7, 3500000, 100, 200, 0, true, VehicleUtilities.GetInventoryRestriction(this));
+        GetComponent<MinimapComponent>().InitAsMovable();
+        GetComponent<MinimapComponent>().SetCategory(Localizer.DoStr("Vehicles"));
+        GetComponent<VehicleComponent>().Initialize(ElectricTakeoverConfig.Obj.GetBatteryPoweredVehicleSpeed(14), 1.5f,1);
+        GetComponent<VehicleComponent>().FailDriveMsg = Localizer.Do($"You are too hungry to drive {DisplayName}!");
         {
-            this.GetComponent<PartsComponent>().Config(() => LocString.Empty, new PartInfo[]
-            {
+            GetComponent<PartsComponent>().Config(() => LocString.Empty,
+            [
                 new() { TypeName = nameof(AdvancedCombustionEngineItem), Quantity = 1},
                 new() { TypeName = nameof(RubberWheelItem), Quantity = 2},
                 new() { TypeName = nameof(LubricantItem), Quantity = 2},
-            });
+            ]);
         }
     }
 }

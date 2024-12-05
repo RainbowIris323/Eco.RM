@@ -2,19 +2,17 @@
 using System.ComponentModel;
 using Eco.Core.Items;
 using Eco.Gameplay.Items;
-using Eco.Shared.Localization;
 using Eco.Shared.Serialization;
 
 namespace Eco.RM.ElectricTakeover.Items;
 
 [Serialized]
 [Tag("Battery")]
-[LocDescription("A device used to store energy for later use")]
 [MaxStackSize(1)]
 public abstract class BatteryItem : Item, IController, INotifyPropertyChanged
 {
     public abstract Type BatteryType { get; }
-    [Serialized] public float Charge { get; set; } = 0f;
+    [Serialized, Notify] public float Charge { get; set; } = 0f;
     [Serialized] public float MaxCharge { get; set; } = 0f;
     [Serialized] public float ChargeRate { get; set; } = 0f;
     [Serialized] public float DischargeRate { get; set; } = 0f;
