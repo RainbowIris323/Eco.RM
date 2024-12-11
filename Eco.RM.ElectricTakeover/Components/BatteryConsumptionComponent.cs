@@ -6,11 +6,16 @@ using Eco.Shared.Localization;
 using Eco.Shared.Serialization;
 using Eco.Shared.Utils;
 using Eco.Gameplay.Components;
+using Eco.Gameplay.Items;
 
 namespace Eco.RM.ElectricTakeover.Components;
 
 [Serialized]
-[AutogenClass, HasIcon("BatteryConsumptionComponent")]
+[LocDisplayName("Battery Consumption")]
+public partial class BatteryConsumption : Item { }
+
+[Serialized]
+[AutogenClass, HasIcon("BatteryConsumption")]
 [RequireComponent(typeof(BatteryStorageComponent))]
 [RequireComponent(typeof(StatusComponent))]
 [LocDisplayName("Battery Consumption"), LocDescription("Allows objects to run from a internal battery storage.")]
@@ -62,5 +67,5 @@ public class BatteryConsumptionComponent : WorldObjectComponent, IController, IN
         s.AppendLine(Localizer.DoStr($"Active Batteries: {BatteryStorageComponent.NonEmptyBatteries.Count()}"));
         ChargerInformationDisplay.SetText(s.ToString());
     }
-    public void UpdateStatus() => status.SetStatusMessage(Enabled, Localizer.DoStr("Has availible charge."), Localizer.DoStr("No availible charge."));
+    public void UpdateStatus() => status.SetStatusMessage(Enabled, Localizer.DoStr("Has availible charge."), BatteryStorageComponent.Charge <= 0 ? Localizer.DoStr("No availible charge.") : (BatteryStorageComponent.Charge <= 0 ? Localizer.DoStr("Low battery discharge rate.") : Localizer.DoStr("ERROR")));
 }

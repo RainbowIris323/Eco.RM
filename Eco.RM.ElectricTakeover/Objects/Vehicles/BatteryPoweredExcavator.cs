@@ -18,6 +18,7 @@ using Eco.Gameplay.Items.Recipes;
 using Eco.RM.Framework.Config;
 using Eco.RM.ElectricTakeover.Items;
 using Eco.RM.ElectricTakeover.Utility;
+using Eco.Shared.Utils;
 
 namespace Eco.RM.ElectricTakeover.Objects;
 
@@ -102,7 +103,7 @@ public partial class BatteryPoweredExcavatorObject : PhysicsWorldObject, IRepres
         GetComponent<CustomTextComponent>().Initialize(200);
         GetComponent<BatteryConsumptionComponent>().Initialize(1, 275);
         GetComponent<VehicleComponent>().HumanPowered(2);
-        GetComponent<VehicleToolComponent>().Initialize(7, 3500000, 100, 200, 0, true, VehicleUtilities.GetInventoryRestriction(this));
+        GetOrCreateComponent<VehicleToolComponent>().Initialize(7, 3500000, 0, 0, 0, true, BatteryPoweredVehicleUtilities.GetInventoryRestriction(this));
         GetComponent<MinimapComponent>().InitAsMovable();
         GetComponent<MinimapComponent>().SetCategory(Localizer.DoStr("Vehicles"));
         GetComponent<VehicleComponent>().Initialize(ElectricTakeoverConfig.Obj.GetBatteryPoweredVehicleSpeed(14), 1.5f,1);

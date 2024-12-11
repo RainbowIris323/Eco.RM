@@ -26,7 +26,9 @@ public partial class ElectricBatteryBufferObject : WorldObject, IRepresentsItem
 
 [Serialized]
 [LocDisplayName("Electric Battery Buffer"), LocDescription("Allows the batteries within to contribute to a connected electric power grid.")]
-public partial class ElectricBatteryBufferItem : WorldObjectItem<ElectricBatteryBufferObject> { }
+public partial class ElectricBatteryBufferItem : WorldObjectItem<ElectricBatteryBufferObject> 
+{
+}
 
 
 

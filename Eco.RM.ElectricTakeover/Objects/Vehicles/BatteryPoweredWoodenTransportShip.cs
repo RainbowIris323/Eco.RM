@@ -30,6 +30,7 @@ namespace Eco.RM.ElectricTakeover.Objects;
 [Ecopedia("Crafted Objects", "Vehicles", createAsSubPage: true)]
 public partial class BatteryPoweredWoodenTransportShipItem : WorldObjectItem<BatteryPoweredWoodenTransportShipObject>, IPersistentData
 {
+    public override string IconName => nameof(WoodenTransportShipItem);
     public float InteractDistance => DefaultInteractDistance.WaterPlacement;
     public bool ShouldHighlight(Type block) => false;
     [Serialized, SyncToView, NewTooltipChildren(CacheAs.Instance, flags: TTFlags.AllowNonControllerTypeForChildren)] public object PersistentData { get; set; }

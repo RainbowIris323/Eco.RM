@@ -26,7 +26,9 @@ public partial class MechanicalBatteryChargerObject : WorldObject, IRepresentsIt
 
 [Serialized]
 [LocDisplayName("Mechanical Battery Charger"), LocDescription("Allows the batteries within to charge from a connected mechanical power grid.")]
-public partial class MechanicalBatteryChargerItem : WorldObjectItem<MechanicalBatteryChargerObject> { }
+public partial class MechanicalBatteryChargerItem : WorldObjectItem<MechanicalBatteryChargerObject>
+{
+}
 
 
 [RequiresSkill(typeof(BasicEngineeringSkill), 1)]

@@ -18,6 +18,7 @@ using Eco.RM.ElectricTakeover.Utility;
 using Eco.Gameplay.Items.Recipes;
 using Eco.RM.Framework.Config;
 using Eco.RM.ElectricTakeover.Items;
+using Eco.Shared.Utils;
 
 namespace Eco.RM.ElectricTakeover.Objects;
 
@@ -113,7 +114,7 @@ public partial class BatteryPoweredSteamTractorObject : PhysicsWorldObject, IRep
         GetComponent<MinimapComponent>().InitAsMovable();
         GetComponent<MinimapComponent>().SetCategory(Localizer.DoStr("Vehicles"));
         GetComponent<VehicleComponent>().Initialize(ElectricTakeoverConfig.Obj.GetBatteryPoweredVehicleSpeed(12), 1);
-        GetComponent<VehicleToolComponent>().Initialize(12, 2500000, 100, 200, 0, true, VehicleUtilities.GetInventoryRestriction(this));
+        GetOrCreateComponent<VehicleToolComponent>().Initialize(12, 2500000, 0, 0, 0, true, BatteryPoweredVehicleUtilities.GetInventoryRestriction(this));
         GetComponent<VehicleComponent>().FailDriveMsg = Localizer.Do($"You are too hungry to drive {DisplayName}!");
         {
             GetComponent<PartsComponent>().Config(() => LocString.Empty,

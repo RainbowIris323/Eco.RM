@@ -26,7 +26,9 @@ public partial class ElectricBatteryChargerObject : WorldObject, IRepresentsItem
 
 [Serialized]
 [LocDisplayName("Electric Battery Charger"), LocDescription("Allows the batteries within to charge from a connected electric power grid.")]
-public partial class ElectricBatteryChargerItem : WorldObjectItem<ElectricBatteryChargerObject> { }
+public partial class ElectricBatteryChargerItem : WorldObjectItem<ElectricBatteryChargerObject>
+{
+}
 
 
 [RequiresSkill(typeof(BasicEngineeringSkill), 1)]

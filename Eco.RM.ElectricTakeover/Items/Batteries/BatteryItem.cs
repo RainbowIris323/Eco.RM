@@ -3,8 +3,13 @@ using System.ComponentModel;
 using Eco.Core.Items;
 using Eco.Gameplay.Items;
 using Eco.Shared.Serialization;
+using Eco.Shared.Localization;
 
 namespace Eco.RM.ElectricTakeover.Items;
+
+[Serialized]
+[LocDisplayName("Battery")]
+public partial class Battery : Item { }
 
 [Serialized]
 [Tag("Battery")]

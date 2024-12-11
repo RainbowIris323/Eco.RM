@@ -104,7 +104,7 @@ public partial class BatteryPoweredCraneObject : PhysicsWorldObject, IRepresents
     {
         base.Initialize();
         GetComponent<BatteryConsumptionComponent>().Initialize(1, 150);
-        GetComponent<CraneToolComponent>().Initialize(200, 150);
+        GetComponent<CraneToolComponent>().Initialize(0, 150);
         GetComponent<MinimapComponent>().SetCategory(Localizer.DoStr("Vehicles"));
         GetComponent<VehicleComponent>().Initialize(ElectricTakeoverConfig.Obj.GetBatteryPoweredVehicleSpeed(30), 1,1);
         GetComponent<VehicleComponent>().FailDriveMsg = Localizer.Do($"You are too hungry to drive {DisplayName}!");

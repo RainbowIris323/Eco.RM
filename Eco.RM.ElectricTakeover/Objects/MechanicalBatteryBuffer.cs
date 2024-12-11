@@ -26,7 +26,9 @@ public partial class MechanicalBatteryBufferObject : WorldObject, IRepresentsIte
 
 [Serialized]
 [LocDisplayName("Mechanical Battery Buffer"), LocDescription("Allows the batteries within to contribute to a connected mechanical power grid.")]
-public partial class MechanicalBatteryBufferItem : WorldObjectItem<MechanicalBatteryBufferObject> { }
+public partial class MechanicalBatteryBufferItem : WorldObjectItem<MechanicalBatteryBufferObject>
+{
+}
 
 [RequiresSkill(typeof(BasicEngineeringSkill), 1)]
 public class MechanicalBatteryBufferRecipe : RecipeFamily, IConfigurableRecipe

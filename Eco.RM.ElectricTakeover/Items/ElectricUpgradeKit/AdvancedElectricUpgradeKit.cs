@@ -14,7 +14,9 @@ namespace Eco.RM.ElectricTakeover.Items;
 [LocDescription("A kit used to turn advanced non-battery powered machines into battery powered ones.")]
 [LocDisplayName("Advanced Electric Upgrade Kit")]
 [MaxStackSize(5)]
-public class AdvancedElectricUpgradeKitItem : Item { }
+public class AdvancedElectricUpgradeKitItem : Item
+{
+}
 
 
 [RequiresSkill(typeof(IndustrySkill), 3)]

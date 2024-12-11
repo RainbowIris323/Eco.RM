@@ -14,7 +14,9 @@ namespace Eco.RM.ElectricTakeover.Items;
 [LocDescription("A kit used to turn simple non-battery powered machines into battery powered ones.")]
 [LocDisplayName("Simple Electric Upgrade Kit")]
 [MaxStackSize(5)]
-public class SimpleElectricUpgradeKitItem : Item { }
+public class SimpleElectricUpgradeKitItem : Item
+{
+}
 
 
 [RequiresSkill(typeof(BasicEngineeringSkill), 3)]

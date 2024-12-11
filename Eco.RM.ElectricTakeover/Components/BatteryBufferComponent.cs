@@ -6,17 +6,22 @@ using Eco.RM.Framework.UI;
 using Eco.Shared.Localization;
 using Eco.Shared.Serialization;
 using Eco.Shared.Utils;
+using Eco.Gameplay.Items;
 
 namespace Eco.RM.ElectricTakeover.Components;
 
 [Serialized]
-[AutogenClass, HasIcon("BatteryBufferComponent")]
+[LocDisplayName("Battery Buffer")]
+public partial class BatteryBuffer : Item { }
+
+[Serialized]
+[AutogenClass, HasIcon("BatteryBuffer")]
 [RequireComponent(typeof(PowerGeneratorComponent))]
 [RequireComponent(typeof(PowerConsumptionComponent))]
 [RequireComponent(typeof(PowerGridComponent))]
 [RequireComponent(typeof(BatteryStorageComponent))]
 [LocDisplayName("Battery Buffer"), LocDescription("Allows a connected power grid to use energy from a internal battery storage when the grid is low on energy and recharge when there is excess.")]
-public class BatteryBufferComponent : WorldObjectComponent, IController, INotifyPropertyChanged
+public partial class BatteryBufferComponent : WorldObjectComponent, IController, INotifyPropertyChanged
 {
     [SyncToView, Autogen, Notify, ShowFullObject] public TextElement BufferInformationDisplay { get; } = new(Localizer.DoStr("Buffer Information"), "");
     public PowerGridComponent PowerGridComponent => Parent.GetOrCreateComponent<PowerGridComponent>();

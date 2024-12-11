@@ -20,7 +20,7 @@ public static class BatteryTooltipLibrary
         });
     }
 
-    [NewTooltip(CacheAs.Instance, 11, TTCat.Controls)]
+    [NewTooltip(CacheAs.Disabled)]
     public static LocString ChargeTooltip(this BatteryItem item)
     {
         var s = new LocStringBuilder();

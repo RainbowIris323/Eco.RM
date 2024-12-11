@@ -13,8 +13,12 @@ using Eco.Shared.Utils;
 namespace Eco.RM.ElectricTakeover.Components;
 
 [Serialized]
-[HasIcon("BatteryStorageComponent")]
-[RequireComponent(typeof(PropertyAuthComponent))]
+[LocDisplayName("Battery Storage")]
+public partial class BatteryStorage : Item { }
+
+[Serialized]
+[HasIcon("BatteryStorage")]
+[RequireComponent(typeof(StandaloneAuthComponent))]
 [LocDisplayName("Battery Storage"), LocDescription("A storage for active batteries.")]
 public class BatteryStorageComponent : StorageComponent
 {
