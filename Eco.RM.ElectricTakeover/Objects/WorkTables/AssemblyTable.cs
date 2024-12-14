@@ -12,7 +12,8 @@ using Eco.Shared.Items;
 using Eco.Shared.Localization;
 using Eco.Shared.Math;
 using Eco.Shared.Serialization;
-using Eco.RM.Framework.Config;
+using Eco.RM.Framework.Resolvers;
+using Eco.RM.Framework.Models;
 
 namespace Eco.RM.ElectricTakeover.Objects;
 

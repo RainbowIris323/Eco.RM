@@ -15,10 +15,11 @@ using static Eco.Gameplay.Components.PartsComponent;
 using Eco.Mods.TechTree;
 using Eco.RM.ElectricTakeover.Components;
 using Eco.Gameplay.Items.Recipes;
-using Eco.RM.Framework.Config;
+using Eco.RM.Framework.Resolvers;
 using Eco.RM.ElectricTakeover.Items;
 using Eco.RM.ElectricTakeover.Utility;
 using Eco.Shared.Utils;
+using Eco.RM.Framework.Models;
 
 namespace Eco.RM.ElectricTakeover.Objects;
 

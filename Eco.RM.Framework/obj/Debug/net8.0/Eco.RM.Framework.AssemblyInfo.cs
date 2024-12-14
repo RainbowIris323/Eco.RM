@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Eco.RM.Framework")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b84782fb0bc70ff019f00718a5882c2853d254e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+802e64d207614354701a86cadda03365d030ae78")]
 [assembly: System.Reflection.AssemblyProductAttribute("Eco.RM.Framework")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Eco.RM.Framework")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

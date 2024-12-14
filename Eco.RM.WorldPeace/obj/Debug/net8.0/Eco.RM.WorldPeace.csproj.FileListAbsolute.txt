@@ -1,0 +1,32 @@
+C:\Eco Modding\Eco.RM - Code\Eco.RM.WorldPeace\bin\Debug\net8.0\Eco.RM.WorldPeace.deps.json
+C:\Eco Modding\Eco.RM - Code\Eco.RM.WorldPeace\bin\Debug\net8.0\Eco.RM.WorldPeace.dll
+C:\Eco Modding\Eco.RM - Code\Eco.RM.WorldPeace\bin\Debug\net8.0\Eco.RM.WorldPeace.pdb
+C:\Eco Modding\Eco.RM - Code\Eco.RM.WorldPeace\bin\Debug\net8.0\Eco.RM.Framework.dll
+C:\Eco Modding\Eco.RM - Code\Eco.RM.WorldPeace\bin\Debug\net8.0\Eco.RM.Framework.pdb
+C:\Eco Modding\Eco.RM - Code\Eco.RM.WorldPeace\obj\Debug\net8.0\Eco.RM.WorldPeace.csproj.AssemblyReference.cache
+C:\Eco Modding\Eco.RM - Code\Eco.RM.WorldPeace\obj\Debug\net8.0\Eco.RM.WorldPeace.GeneratedMSBuildEditorConfig.editorconfig
+C:\Eco Modding\Eco.RM - Code\Eco.RM.WorldPeace\obj\Debug\net8.0\Eco.RM.WorldPeace.AssemblyInfoInputs.cache
+C:\Eco Modding\Eco.RM - Code\Eco.RM.WorldPeace\obj\Debug\net8.0\Eco.RM.WorldPeace.AssemblyInfo.cs
+C:\Eco Modding\Eco.RM - Code\Eco.RM.WorldPeace\obj\Debug\net8.0\Eco.RM.WorldPeace.csproj.CoreCompileInputs.cache
+C:\Eco Modding\Eco.RM - Code\Eco.RM.WorldPeace\obj\Debug\net8.0\Eco.RM.WorldPeace.sourcelink.json
+C:\Eco Modding\Eco.RM - Code\Eco.RM.WorldPeace\obj\Debug\net8.0\Eco.RM.W.97623997.Up2Date
+C:\Eco Modding\Eco.RM - Code\Eco.RM.WorldPeace\obj\Debug\net8.0\Eco.RM.WorldPeace.dll
+C:\Eco Modding\Eco.RM - Code\Eco.RM.WorldPeace\obj\Debug\net8.0\refint\Eco.RM.WorldPeace.dll
+C:\Eco Modding\Eco.RM - Code\Eco.RM.WorldPeace\obj\Debug\net8.0\Eco.RM.WorldPeace.pdb
+C:\Eco Modding\Eco.RM - Code\Eco.RM.WorldPeace\obj\Debug\net8.0\ref\Eco.RM.WorldPeace.dll
+C:\Eco Modding\Eco.RM\Eco.RM.WorldPeace\bin\Debug\net8.0\Eco.RM.WorldPeace.deps.json
+C:\Eco Modding\Eco.RM\Eco.RM.WorldPeace\bin\Debug\net8.0\Eco.RM.WorldPeace.dll
+C:\Eco Modding\Eco.RM\Eco.RM.WorldPeace\bin\Debug\net8.0\Eco.RM.WorldPeace.pdb
+C:\Eco Modding\Eco.RM\Eco.RM.WorldPeace\bin\Debug\net8.0\Eco.RM.Framework.dll
+C:\Eco Modding\Eco.RM\Eco.RM.WorldPeace\bin\Debug\net8.0\Eco.RM.Framework.pdb
+C:\Eco Modding\Eco.RM\Eco.RM.WorldPeace\obj\Debug\net8.0\Eco.RM.WorldPeace.csproj.AssemblyReference.cache
+C:\Eco Modding\Eco.RM\Eco.RM.WorldPeace\obj\Debug\net8.0\Eco.RM.WorldPeace.GeneratedMSBuildEditorConfig.editorconfig
+C:\Eco Modding\Eco.RM\Eco.RM.WorldPeace\obj\Debug\net8.0\Eco.RM.WorldPeace.AssemblyInfoInputs.cache
+C:\Eco Modding\Eco.RM\Eco.RM.WorldPeace\obj\Debug\net8.0\Eco.RM.WorldPeace.AssemblyInfo.cs
+C:\Eco Modding\Eco.RM\Eco.RM.WorldPeace\obj\Debug\net8.0\Eco.RM.WorldPeace.csproj.CoreCompileInputs.cache
+C:\Eco Modding\Eco.RM\Eco.RM.WorldPeace\obj\Debug\net8.0\Eco.RM.WorldPeace.sourcelink.json
+C:\Eco Modding\Eco.RM\Eco.RM.WorldPeace\obj\Debug\net8.0\Eco.RM.W.97623997.Up2Date
+C:\Eco Modding\Eco.RM\Eco.RM.WorldPeace\obj\Debug\net8.0\Eco.RM.WorldPeace.dll
+C:\Eco Modding\Eco.RM\Eco.RM.WorldPeace\obj\Debug\net8.0\refint\Eco.RM.WorldPeace.dll
+C:\Eco Modding\Eco.RM\Eco.RM.WorldPeace\obj\Debug\net8.0\Eco.RM.WorldPeace.pdb
+C:\Eco Modding\Eco.RM\Eco.RM.WorldPeace\obj\Debug\net8.0\ref\Eco.RM.WorldPeace.dll

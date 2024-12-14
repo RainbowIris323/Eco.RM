@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RunPostBuildEvent>Always</RunPostBuildEvent>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Eco.RM.ElectricTakeover\Eco.RM.ElectricTakeover.csproj" />
+    <ProjectReference Include="..\Eco.RM.Framework\Eco.RM.Framework.csproj" />
+    <ProjectReference Include="..\Eco.RM.WorldPeace\Eco.RM.WorldPeace.csproj" />
+  </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="cd &quot;&quot;$(ProjectDir)Scripts&quot;&#xD;&#xA;call MakeMods.bat Event" />
+  </Target>
+
+</Project>

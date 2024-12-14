@@ -1,0 +1,98 @@
+{
+  "UseWaste": false,
+  "ConfigVersion": 1,
+  "AllowDebugCalls": false,
+  "UnStuckDisableTime": 0.0,
+  "AdminCommandsLoggingLevel": "LogFileAndNotifyAdmins",
+  "DelayNearbyFoodCheckMinutes": 4.0,
+  "NearbyFoodSpawnLocationRadius": 20.0,
+  "NearbyFoodSpawnCount": 5,
+  "UseExactSpawnLocation": false,
+  "SpawnLocation": {
+    "x": 382,
+    "y": 0,
+    "z": 301
+  },
+  "SpawnSearchRange": 600,
+  "MovementHackDetection": false,
+  "RequiredOccupancyBeforeAFKKick": 0.0,
+  "TimeRequiredForAFKMinutes": 0.0,
+  "UserPermission": {
+    "WhiteList": {
+      "UserIDAddedEvent": {},
+      "UserIDRemovedEvent": {},
+      "Collection": {
+        "System.String": {
+          "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+          "$values": []
+        }
+      }
+    },
+    "BlackList": {
+      "UserIDAddedEvent": {},
+      "UserIDRemovedEvent": {},
+      "Collection": {
+        "Eco.Gameplay.Players.TimeUser": {
+          "$type": "System.Collections.Generic.List`1[[Eco.Gameplay.Players.TimeUser, Eco.Gameplay]], System.Private.CoreLib",
+          "$values": []
+        }
+      }
+    },
+    "MuteList": {
+      "UserIDAddedEvent": {},
+      "UserIDRemovedEvent": {},
+      "Collection": {
+        "Eco.Gameplay.Players.TimeUser": {
+          "$type": "System.Collections.Generic.List`1[[Eco.Gameplay.Players.TimeUser, Eco.Gameplay]], System.Private.CoreLib",
+          "$values": []
+        }
+      }
+    },
+    "Admins": {
+      "UserIDAddedEvent": {},
+      "UserIDRemovedEvent": {},
+      "Collection": {
+        "System.String": {
+          "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+          "$values": [
+            "ef77966e-2ee2-4554-71ab-08dc8d1bff58"
+          ]
+        }
+      }
+    },
+    "QueuePriorities": {
+      "Eco.Gameplay.Players.QueuePriority": {
+        "$type": "System.Collections.Generic.List`1[[Eco.Gameplay.Players.QueuePriority, Eco.Gameplay]], System.Private.CoreLib",
+        "$values": [
+          {
+            "Priority": 0,
+            "Title": "Default Priority",
+            "Users": ""
+          },
+          {
+            "Priority": 1,
+            "Title": "Priority 1",
+            "Users": ""
+          },
+          {
+            "Priority": 2,
+            "Title": "Priority 2",
+            "Users": "ef77966e-2ee2-4554-71ab-08dc8d1bff58"
+          }
+        ]
+      }
+    },
+    "UsersWithReservedSlotsAtQueue": {
+      "UserIDAddedEvent": {},
+      "UserIDRemovedEvent": {},
+      "Collection": {
+        "System.String": {
+          "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+          "$values": [
+            "ef77966e-2ee2-4554-71ab-08dc8d1bff58"
+          ]
+        }
+      }
+    }
+  }
+}

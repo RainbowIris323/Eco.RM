@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E6K1dLBCND4=",
+  "dgSpecHash": "Tz35flzewL8=",
   "success": true,
-  "projectFilePath": "C:\\Eco Modding\\Eco.RM - Code\\Eco.RM.Framework\\Eco.RM.Framework.csproj",
+  "projectFilePath": "C:\\Eco Modding\\Eco.RM\\Eco.RM.Framework\\Eco.RM.Framework.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rainb\\.nuget\\packages\\eco.referenceassemblies\\0.11.1.4-beta-release-802\\eco.referenceassemblies.0.11.1.4-beta-release-802.nupkg.sha512"
   ],

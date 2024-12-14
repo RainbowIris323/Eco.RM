@@ -5,9 +5,10 @@ using Eco.Gameplay.Objects;
 using Eco.Gameplay.Skills;
 using Eco.Mods.TechTree;
 using Eco.RM.ElectricTakeover.Components;
-using Eco.RM.Framework.Config;
+using Eco.RM.Framework.Resolvers;
 using Eco.Shared.Localization;
 using Eco.Shared.Serialization;
+using Eco.RM.Framework.Models;
 
 namespace Eco.RM.ElectricTakeover.Objects;
 

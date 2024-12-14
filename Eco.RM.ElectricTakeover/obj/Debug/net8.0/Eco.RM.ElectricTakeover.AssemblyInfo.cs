@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Eco.RM.ElectricTakeover")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40a05ea5409d490b06aaca6557c3094d84430e32")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+802e64d207614354701a86cadda03365d030ae78")]
 [assembly: System.Reflection.AssemblyProductAttribute("Eco.RM.ElectricTakeover")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Eco.RM.ElectricTakeover")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

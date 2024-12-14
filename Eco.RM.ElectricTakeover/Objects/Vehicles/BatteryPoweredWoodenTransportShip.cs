@@ -16,8 +16,9 @@ using Eco.Mods.TechTree;
 using Eco.RM.ElectricTakeover.Components;
 using Eco.RM.ElectricTakeover.Utility;
 using Eco.Gameplay.Items.Recipes;
-using Eco.RM.Framework.Config;
 using Eco.RM.ElectricTakeover.Items;
+using Eco.RM.Framework.Resolvers;
+using Eco.RM.Framework.Models;
 
 namespace Eco.RM.ElectricTakeover.Objects;
 

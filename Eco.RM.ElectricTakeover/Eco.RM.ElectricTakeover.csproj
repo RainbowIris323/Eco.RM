@@ -16,8 +16,4 @@
     <ProjectReference Include="..\Eco.RM.Framework\Eco.RM.Framework.csproj" />
   </ItemGroup>
 
-  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="cd &quot;$(ProjectDirectory)&quot;&#xD;&#xA;call ../PostBuildModSetup.bat &quot;$(MSBuildProjectName)&quot;" />
-  </Target>
-
 </Project>

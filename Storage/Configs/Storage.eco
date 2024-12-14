@@ -1,0 +1,7 @@
+{
+  "SaveName": "Raynbo Mods - 1",
+  "SaveFrequency": 60,
+  "CleanupFilesOnExceptions": false,
+  "StorageDirectory": "Storage",
+  "NewGameTemplate": ""
+}

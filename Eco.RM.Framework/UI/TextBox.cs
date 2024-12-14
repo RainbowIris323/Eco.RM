@@ -1,6 +1,4 @@
 ﻿using Eco.Core.Controller;
-using Eco.Core.PropertyHandling;
-using Eco.Gameplay.Utils;
 using System.ComponentModel;
 
 namespace Eco.RM.Framework.UI;

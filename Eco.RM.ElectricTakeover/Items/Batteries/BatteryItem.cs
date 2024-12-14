@@ -39,4 +39,16 @@ public abstract class BatteryItem : Item, IController, INotifyPropertyChanged
         item.DischargeRate = DischargeRate;
         return item;
     }
+    public override bool IsStackable => false;
+    public override Item Merge(Item? mergingInto, int thisCount, int otherCount, bool splittingStack)
+    {
+        var isOtherEmpty = mergingInto == null || otherCount <= 0;
+
+        if (isOtherEmpty && !splittingStack)
+            return this;
+        if (IsUnique && splittingStack)
+            return isOtherEmpty ? Clone() : mergingInto!;
+
+        return this;
+    }
 }
