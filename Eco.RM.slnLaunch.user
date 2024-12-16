@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Eco.RM.ElectricTakeover\\Eco.RM.ElectricTakeover.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Eco.RM.Framework\\Eco.RM.Framework.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Eco.RM.WorldPeace\\Eco.RM.WorldPeace.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Eco.RM.SmogFilter\\Eco.RM.SmogFilter.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

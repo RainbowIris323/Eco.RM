@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RunPostBuildEvent>Always</RunPostBuildEvent>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include=".gitkeep" />
+    <Compile Include="Scripts\ModFuncLib.bat" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="AssetBundles\" />
+    <Folder Include="Assets\" />
+    <Folder Include="Templates\ModData\Packed\" />
+    <Folder Include="Templates\ModStage\Mods\Raynbo Mods\" />
+    <Folder Include="Temp\" />
+  </ItemGroup>
+
+</Project>

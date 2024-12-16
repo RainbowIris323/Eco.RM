@@ -1,0 +1,11 @@
+﻿AssetBundles/
+Assets/
+Configs/
+Temp/
+Temp/Template Stage/Mods/Raynbo Mods
+Releases/
+Releases/Eco.RM.*/
+Releases/Eco.RM.*/v*.*.*/
+Releases/Eco.RM.*/Changelogs/
+Releases/Eco.RM.*/Releases/
+Pre-Releases

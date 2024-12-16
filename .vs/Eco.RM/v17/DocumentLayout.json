@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Eco Modding\\Eco.RM\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{968B627A-94B8-4873-8894-91A74539AF4D}|Dev\\Dev.csproj|c:\\eco modding\\eco.rm\\dev\\scripts\\modfunclib.bat||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{968B627A-94B8-4873-8894-91A74539AF4D}|Dev\\Dev.csproj|solutionrelative:dev\\scripts\\modfunclib.bat||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{968B627A-94B8-4873-8894-91A74539AF4D}|Dev\\Dev.csproj|c:\\eco modding\\eco.rm\\dev\\configs\\testserverdir||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{968B627A-94B8-4873-8894-91A74539AF4D}|Dev\\Dev.csproj|solutionrelative:dev\\configs\\testserverdir||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{968B627A-94B8-4873-8894-91A74539AF4D}|Dev\\Dev.csproj|c:\\eco modding\\eco.rm\\dev\\configs\\devserverdir||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{968B627A-94B8-4873-8894-91A74539AF4D}|Dev\\Dev.csproj|solutionrelative:dev\\configs\\devserverdir||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestServerDir",
+              "DocumentMoniker": "C:\\Eco Modding\\Eco.RM\\Dev\\Configs\\TestServerDir",
+              "RelativeDocumentMoniker": "Dev\\Configs\\TestServerDir",
+              "ToolTip": "C:\\Eco Modding\\Eco.RM\\Dev\\Configs\\TestServerDir",
+              "RelativeToolTip": "Dev\\Configs\\TestServerDir",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-16T09:03:25.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DevServerDir",
+              "DocumentMoniker": "C:\\Eco Modding\\Eco.RM\\Dev\\Configs\\DevServerDir",
+              "RelativeDocumentMoniker": "Dev\\Configs\\DevServerDir",
+              "ToolTip": "C:\\Eco Modding\\Eco.RM\\Dev\\Configs\\DevServerDir",
+              "RelativeToolTip": "Dev\\Configs\\DevServerDir",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-16T09:03:20.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ModFuncLib.bat",
+              "DocumentMoniker": "C:\\Eco Modding\\Eco.RM\\Dev\\Scripts\\ModFuncLib.bat",
+              "RelativeDocumentMoniker": "Dev\\Scripts\\ModFuncLib.bat",
+              "ToolTip": "C:\\Eco Modding\\Eco.RM\\Dev\\Scripts\\ModFuncLib.bat",
+              "RelativeToolTip": "Dev\\Scripts\\ModFuncLib.bat",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAAAMAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000614|",
+              "WhenOpened": "2024-12-16T08:43:45.157Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

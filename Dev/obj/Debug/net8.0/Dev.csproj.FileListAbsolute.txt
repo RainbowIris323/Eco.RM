@@ -1,0 +1,6 @@
+C:\Eco Modding\Eco.RM\Dev\obj\Debug\net8.0\Dev.csproj.AssemblyReference.cache
+C:\Eco Modding\Eco.RM\Dev\obj\Debug\net8.0\Dev.GeneratedMSBuildEditorConfig.editorconfig
+C:\Eco Modding\Eco.RM\Dev\obj\Debug\net8.0\Dev.AssemblyInfoInputs.cache
+C:\Eco Modding\Eco.RM\Dev\obj\Debug\net8.0\Dev.AssemblyInfo.cs
+C:\Eco Modding\Eco.RM\Dev\obj\Debug\net8.0\Dev.csproj.CoreCompileInputs.cache
+C:\Eco Modding\Eco.RM\Dev\obj\Debug\net8.0\Dev.sourcelink.json
